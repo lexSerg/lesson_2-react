@@ -2,11 +2,45 @@
     width: 90%;
 }
 .btn{
-    background-color:rgb(117, 32, 117)
+    background-color:rgb(117, 32, 117);
+    display: block;
+    margin: .5rem 1.5rem;
 }
 .btn:focus{
     background-color:rgba(194, 100, 194, 0.945)
 }
 .btn:hover{
     background-color:rgba(194, 100, 194, 0.945)
+}
+.select-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color:white;
+    top:0;
+    left: 7rem;
+    border: 1px solid black;
+    width: 50%;
+    cursor: pointer;
+}
+.select:hover{
+    color: #fff;
+    background-color: rgb(129, 129, 129)
+}
+.hidden{
+    visibility: hidden;
+}
+input[type='text']{
+    display: inline;
+    color:blue;
+    width: 80%;
+}
+.searched-users{
+    left: 10%;
+    width: 80%;
+    top: 102%;
+    position: absolute;
+    z-index: 1;
+    color:rgb(243, 239, 239);
+    background-color:rgb(12, 11, 14);
 }

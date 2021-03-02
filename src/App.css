@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.data-api-wrap{
+  display:flex;
+}
+.data-api{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: .5rem .5rem;
+  width: 33%;
+  background-color:rgba(22, 143, 143, 0.692);
+}
+.item-data{
+  border: 1px solid rgb(187, 70, 70);
+  width: 90%;
+  margin: .2rem auto;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0.541);
+}
+.item-id {
+  border: 1px solid black;
+  margin: .5rem .5rem;
+  display: flex;
+  justify-content: center;
+  border-radius:10px;
+  width: 10%;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: rgb(100, 15, 100)
+}

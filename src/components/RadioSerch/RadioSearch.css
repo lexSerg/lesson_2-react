@@ -1,3 +1,12 @@
 .input-group{
     width: 90%;
 }
+.btn{
+    background-color:rgb(117, 32, 117)
+}
+.btn:focus{
+    background-color:rgba(194, 100, 194, 0.945)
+}
+.btn:hover{
+    background-color:rgba(194, 100, 194, 0.945)
+}
